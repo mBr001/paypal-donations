@@ -20,7 +20,7 @@
      * Sandbox-URL: https://www.sandbox.paypal.com/cgi-bin/webscr
      * Live-URL: https://www.paypal.com/cgi-bin/webscr
     */
-    $paypal_url = "https://www.sandbox.paypal.com/cgi-bin/webscr";
+    $paypal_url = "https://www.paypal.com/cgi-bin/webscr";
 
     // Enter your PayPal E-Mail here.
     $paypal_email = "yourpaypal@email.com";
