@@ -1,5 +1,5 @@
 # PayPal Donations
-This is the official Github Repository of the {SourceMod Plugin 'PayPal Donations'](https://forums.alliedmods.net/showthread.php?t=302214)
+This is the official Github Repository of the [SourceMod Plugin 'PayPal Donations'](https://forums.alliedmods.net/showthread.php?t=302214)
 
 If you find any bugs, please do not hesitate to report them to me.
 
