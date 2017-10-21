@@ -37,5 +37,5 @@ git clone https://github.com/Triniayo/paypal-donations.git
 ### 🤖 Authors
 - Trinia (FreakyLike)
 
-###   ❤️   Credits
+###     ❤️   Credits
 - [BlackCetha](https://github.com/SmItH197/SteamAuthentication)
