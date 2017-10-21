@@ -23,7 +23,7 @@
     <![endif]-->
   </head>
   <body style="background-color: #EEE;">
-    <div class="container" style="margin-top: 30px; margin-bottom: 30px; padding-bottom: 10px; background-color: #FFF; height: 580px;">
+    <div class="container" style="margin-top: 30px; margin-bottom: 30px; background-color: #FFF; height: 580px;">
 		<h1>PayPal Donations</h1>
 		<span class="small pull-left" style="padding-right: 10px;">by Trinia (FreakyLike)</span>
 		<hr>
@@ -49,7 +49,7 @@ if(!isset($_SESSION['steamid'])) {
 </nav>
   <span style='float:right;'><?php logoutbutton(); ?></span>
 		<br />
-    <div style='margin: 30px auto; text-align: center;'>
+    <div style='margin: 30px auto; padding-bottom: 29px; text-align: center;'>
       <h3><b>Account Info</b></h3>
       <h4><i>Here are all your account details.</i></h4><br />
       <div class="header-stroke"></div><br />
