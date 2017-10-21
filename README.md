@@ -1,2 +1,2 @@
 # PayPal Donations
-# Official Github Repo
+This is the official Github Repository of the SourceMod Plugin 'PayPal Donations'
