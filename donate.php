@@ -144,7 +144,7 @@ if(!isset($_SESSION['steamid'])) {
           <input type="hidden" name="item_name" value="Donation: Tier V" />
           <input type="hidden" value="_xclick" name="cmd"/>
           <input type="hidden" name="amount" value="<?=$amount_tier5?>" />
-          <button name="submit" action="<?=$paypal_url?>" type="submit" class="btn btn-primary">Tier V - <?=$amount_tier1?> <?=$paypal_currency?></button>
+          <button name="submit" action="<?=$paypal_url?>" type="submit" class="btn btn-primary">Tier V - <?=$amount_tier5?> <?=$paypal_currency?></button>
         </form>
       </div>
     </div>
