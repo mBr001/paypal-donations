@@ -3,6 +3,10 @@ This is the official Github Repository of the [SourceMod Plugin 'PayPal Donation
 
 If you find any bugs, please do not hesitate to report them to me.
 
+[![GitHub issues](https://img.shields.io/github/issues/Triniayo/paypal-donations.svg)](https://github.com/Triniayo/paypal-donations/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Triniayo/paypal-donations.svg)](https://github.com/Triniayo/paypal-donations/stargazers)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/Triniayo/paypal-donations.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FTriniayo%2Fpaypal-donations)
+
 # How to set up (Webinterface)
 ### 💾 Clone the repo
 ```
