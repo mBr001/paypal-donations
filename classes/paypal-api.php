@@ -1,5 +1,7 @@
 <?php
 
+$certpath = "/var/www/trinia.pro/sourcemod/donate/classes/cert/cacert.pem";
+
 class PaypalIPN
 {
 
@@ -76,16 +78,14 @@ class PaypalIPN
         $raw_post_array = explode('&', $raw_post_data);
         $myPost = array();
         foreach ($raw_post_array as $keyval) {
-            $keyval = explode('=', $keyval);
-            if (count($keyval) == 2) {
-                // Since we do not want the plus in the datetime string to be encoded to a space, we manually encode it.
-                if ($keyval[0] === 'payment_date') {
-                    if (substr_count($keyval[1], '+') === 1) {
-                        $keyval[1] = str_replace('+', '%2B', $keyval[1]);
-                    }
-                }
-                $myPost[$keyval[0]] = urldecode($keyval[1]);
+          $keyval = explode ('=', $keyval);
+          if (count($keyval) == 2) {
+            if ($keyval[0] === 'payment_date') {
+              if (substr_count($keyval[1], '+') === 1)
+                $keyval[1] = str_replace('+', '%2B', $keyval[1]);
             }
+            $myPost[$keyval[0]] = urldecode($keyval[1]);
+          }
         }
 
         // Build the body of the verification post request, adding the _notify-validate command.
@@ -110,7 +110,7 @@ class PaypalIPN
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $req);
         curl_setopt($ch, CURLOPT_SSLVERSION, 6);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 1);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
 
         // This is often required if the server is missing a global cert bundle, or is using an outdated one.
