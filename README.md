@@ -38,7 +38,7 @@ git clone https://github.com/Triniayo/paypal-donations.git
 -----
 
 # How to set up (SourceMod Plugin)
-### 💾 Download the .sp-File(s) and compile them, or use the precompiled versions
+### 💾 Download the .sp-File(s) and compile them, or use [the precompiled versions](https://github.com/Triniayo/paypal-donations/tree/master/sourcemod/plugins)
 
 ### ⚙️ Upload the .smx-File(s) to '../addons/sourcemod/plugins'
 
